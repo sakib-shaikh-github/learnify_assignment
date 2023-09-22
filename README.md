@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The "Learnify Technologies Private Limited" app is a simple and user-friendly Flutter application designed to streamline the process of verifying a user's mobile number using a one-time password (OTP). This app serves as an essential component for adding an extra layer of security and user verification in various mobile applications.
 
 A few resources to get you started if this is your first Flutter project:
 
