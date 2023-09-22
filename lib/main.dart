@@ -9,12 +9,14 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of the Learnify application.
+  // This widget is the root of the Learnify Technologies Private Limited application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Learnify Technologies Private Limited',
-        theme: AppTheme.defaultTheme(),
-        home: const MobileVerificationScreen());
+      title: 'Learnify',
+      theme: AppTheme.defaultTheme(),
+      home: const MobileVerificationScreen(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }

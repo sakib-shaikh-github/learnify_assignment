@@ -10,6 +10,7 @@ class AuthenticationState {
         width: double.maxFinite,
         height: 50,
         child: TextField(
+          keyboardType: TextInputType.number,
           controller: textEditingController,
           onChanged: (value) {
             phoneNumberEntered = (value);
@@ -71,7 +72,7 @@ class AuthenticationState {
             itemCount: 4,
             itemBuilder: (context, index) {
               return Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
+                padding: const EdgeInsets.symmetric(horizontal: 21),
                 child: SizedBox(
                   width: 50,
                   child: TextField(
